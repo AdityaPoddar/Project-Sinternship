@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Intership</title>
+    <style>
+        body {
+            background-image: url("bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
+        .left {
+            color: white;
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 21px;
+            left: 52px;
+
+
+
+        }
+
+        .logo {
+            font-size: 20px;
+            color: rgb(202, 24, 143);
+            font-style: italic;
+
+        }
+
+        .mid {
+            color: white;
+            /* border: 2px solid blue; */
+            display: block;
+            width: 565px;
+            /* margin: 40px 428px; */
+            margin: 45px auto;
+        }
+
+        .mid-sec ul li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 25px;
+            font-size: 25px;
+
+        }
+
+        .mid-sec ul li a {
+            text-decoration: none;
+            color: rgb(202, 24, 143);
+            font-weight: bolder;
+
+        }
+
+        .mid-sec ul li a:hover,
+        .mid-sec ul li a.active {
+            color: white;
+            font-size: 27px;
+
+        }
+
+
+        .right {
+            color: white;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            top: 40px;
+            right: 15px;
+        }
+
+        .btn {
+            border: 2px solid rgba(202, 24, 143, 0.1);
+            ;
+            background-color: green;
+            ;
+            color: rgba(229, 232, 234, 0.966);
+            border-radius: 15px;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        .btn1 {
+            border: 2px solid rgb(163, 25, 25);
+            background-color: rgb(199, 71, 21);
+            color: rgba(251, 251, 251, 0.486);
+            border-radius: 15px;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        .btn:hover
+         {
+            color: white;
+            background-color: rgb(24, 196, 98);
+        }
+        .btn1:hover
+        {
+            color: white;
+            background-color: rgb(81, 78, 172);
+        }
+
+        .container {
+            border: 2px transparent black;
+
+            color: white;
+            background-color: rgba(202, 24, 143, 0.5);
+            border-radius: 20px;
+            width: 600px;
+            margin: 150px auto;
+            padding-bottom: 15px;
+
+        }
+
+        .container h3 {
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 30px;
+        }
+
+        .container input {
+            display: block;
+            margin: 5px auto;
+            width: 300px;
+            text-align: center;
+            color: black;
+            padding: 5px;
+            font-weight: bolder;
+            border-radius: 10px;
+            font-size: 20px;
+            background-color: rgba(19, 16, 233, 0.507);
+        }
+
+        .container input:hover {
+            background-color: white;
+        }
+
+        .sub {
+            border: 2px solid rgba(19, 16, 233, 0.507);
+            ;
+            background-color: rgba(12, 214, 12, 0.507);
+            
+            color: white;
+            border-radius: 15px;
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: bolder;
+            width: 315px;
+            margin-left: 142px;
+            ;
+            margin-top: 5px;
+        }
+
+        .sub:hover {
+            background-color: green;
+        }
+
+        span {
+            color: rgba(20, 16, 233, 0.918);
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <h3 class="logo"><span>S</span>Intership</h3>
+        </div>
+        <div class="mid">
+
+            <div class="mid-sec">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Placement</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Login
+            </button>
+            <button class="btn1">
+                Sign Up
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Internship Form</h3>
+        <form action="">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Contact">
+            <input type="text" placeholder="College">
+            <button class="sub">Submit</button>
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
